@@ -1,18 +1,10 @@
-"use client";
 
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb/Breadcrumb";
-
-import Link from "next/link";
-import ContactSection from "./contactSection";
-
 const GetContact = () => {
   return (
 
-
     <>
-
-
 
       <Breadcrumb
         title="Contact"
@@ -21,8 +13,6 @@ const GetContact = () => {
           { name: 'contact', link: '/contact', active: true },
         ]}
       />
-
-      
 
 
     <section className="get_contact_area">

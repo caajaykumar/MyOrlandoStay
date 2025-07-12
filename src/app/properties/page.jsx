@@ -1,4 +1,4 @@
-'use client';
+
 import Image from 'next/image';
 import properties from './propartiesdata';
 import Breadcrumb from '../components/Breadcrumb/Breadcrumb';
@@ -28,13 +28,13 @@ export default function Properties() {
 
           <div className="row explor_room_item_inner">
             {properties
-              .filter(property => property.active) // Only show active properties
+              .filter(property => property.active) 
               .map(property => (
                 <div className="col-md-4 col-sm-6" key={property.id}>
                   <div className="explor_item">
                     <a href={property.unitLink} className="room_image">
                       <Image src={property.imageUrl} alt={property.alt}
-                        width={600}     // set appropriate values
+                        width={600}     
                         height={400} />
                     </a>
                     <div className="explor_text">

@@ -1,4 +1,4 @@
-'use client';
+
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './aboutus.css'; 
@@ -12,15 +12,11 @@ export default function AboutUs() {
           alt="Main"
           className="img-main"
         />
-        {/* <img
-          src="https://stssevastorage.blob.core.windows.net/myorlandostay/Unit4/09-Web.jpg"
-          alt="Small"
-          className="img-small"
-        /> */}
+       
       </div>
       <div className="about-content">
         <h3><i className="fas fa-user-friends"></i> About Us</h3>
-        <h2> Disney Area Vacation Rental by MyOrlandoStay</h2>
+        <h2> Disney Area Vacation Rental by MyOrlandoStay </h2>
         <p>
           Welcome to MyOrlandoStay vacation home – a home away from your home – in the heart of Orlando! Whether you want to soak yourself in the sun or take a sneak peek of theme parks in the most vibrant & visitor-friendly destination to feel rejuvenated, your best bet lies here – in Orlando.\
            And, in here we come to offer you the best kind of vacation townhomes.

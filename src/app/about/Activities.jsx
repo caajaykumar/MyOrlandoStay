@@ -1,5 +1,3 @@
-'use client';
-
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -36,7 +34,7 @@ const Activities = () => {
             <div className="col-md-6">
               <Link href="/activities" className="activities_img">
                 <Image
-                  src="/img/vision.png" // place your image in /public/img/vision.png
+                  src="/img/vision.png"
                   alt="Vision"
                   width={500}
                   height={400}

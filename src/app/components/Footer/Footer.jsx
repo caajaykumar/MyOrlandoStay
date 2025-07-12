@@ -1,5 +1,4 @@
-'use client';
-import React from 'react';
+
 import styles from './footer.module.css';
 
 export default function Footer() {
@@ -9,12 +8,12 @@ export default function Footer() {
         <div className={styles.container}>
           <div className={styles.row}>
 
-            {/* Address & Contact */}
+         
 
             <div className={styles.col}>
               <aside className={styles.about_widget}>
                 <img src="https://stssevastorage.blob.core.windows.net/myorlandostay/mylogo.png" alt="MyOrlandoStay Logo" />
-                {/* <p> Your home away from home in Orlando. Stay, relax, and enjoy your vacation with MyOrlandoStay.</p> */}
+             
                 <p> Affordable stays, pet-friendly spaces, and warm hospitality — that’s our promise at MyOrlandoStay.</p>
                 
               </aside>
@@ -29,35 +28,35 @@ export default function Footer() {
               </aside>
             </div>
 
-            {/* Quick Links */}
+           
             <div className={styles.col}>
               <aside className={styles.link_widget}>
                 <h3 className={styles.f_title}>Quick Links</h3>
                 <ul>
-                  <li><a href="/Home/Index">Home</a></li>
-                  <li><a href="/Home/AboutUs">About Us</a></li>
-                  <li><a href="/Home/Properties">Properties</a></li>
-                  <li><a href="/Home/ContactUs">Contact</a></li>
-                  <li><a href="/Home/AreaAttractions">Area Attractions</a></li>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="/">Properties</a></li>
+                  <li><a href="/">Contact</a></li>
+                  <li><a href="/">Area Attractions</a></li>
                 </ul>
               </aside>
             </div>
 
-            {/* Important Links */}
+         
             <div className={styles.col}>
               <aside className={styles.link_widget}>
                 <h3 className={styles.f_title}>Important Links</h3>
                 <ul>
-                  <li><a href="/Home/Privacy">Privacy Policy</a></li>
-                  <li><a href="/Home/Policies">Policies & Terms</a></li>
-                  <li><a href="/Home/Cookies">Cookie Notice</a></li>
-                  <li><a href="/Home/Review">Reviews & Testimonials</a></li>
-                  <li><a href="/Home/MapDirections">Map & Directions</a></li>
+                  <li><a href="/Privacy">Privacy Policy</a></li>
+                  <li><a href="/Policies">Policies & Terms</a></li>
+                  <li><a href="/Cookies">Cookie Notice</a></li>
+                  <li><a href="/Review">Reviews & Testimonials</a></li>
+                  <li><a href="/MapDirections">Map & Directions</a></li>
                 </ul>
               </aside>
             </div>
 
-            {/* Social Links */}
+         
 
             <div className={styles.col}>
               <aside className={styles.about_widget}>
@@ -99,7 +98,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Copyright */}
       <div className={styles.footer_copyright}>
         <p>Copyright © Disney Area Vacation Rental by <a href="#" className={styles.footer_link}>My Orlando Stay</a>, LLC. All rights reserved.</p>
       </div>
