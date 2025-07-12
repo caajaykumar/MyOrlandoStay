@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 
+
+
 const Header = () => {
   return (
     
@@ -46,20 +48,19 @@ const Header = () => {
                 {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
                 <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul className="nav navbar-nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/Home/Properties">Properties</a></li>
+    <li><Link href="/">Home</Link></li>
+    <li><Link href="/about">About Us</Link></li>
+    <li><Link href="/properties">Properties</Link></li>
+    <li><Link href="/areaAttractions">Area Attractions</Link></li>
+    <li><Link href="/contact">Contact Us</Link></li>
 
-                       
-                        <li><a href="/Home/AreaAttractions">Area Attractions</a></li>
-
-                        <li><a href="/Home/ContactUs">Contact Us</a></li>
-                        {/* @*  <li><a href="/Home/MapDirections">Map & Directions</a></li>*@ */}
-
-                        <li><a href="https://na1.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhD8HNp_8gsiruI1y2mWRLwkRlj9TcQ9sxJ0QqsHuYcdhGUUxxesA3B_BPM0jkpTV2Y*&hosted=false">Rental Agreement</a></li>
-
-
-                    </ul>
+    {/* External link should use <a> */}
+    <li>
+      <Link href="https://na1.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhD8HNp_8gsiruI1y2mWRLwkRlj9TcQ9sxJ0QqsHuYcdhGUUxxesA3B_BPM0jkpTV2Y*&hosted=false">
+         Rental Agreement
+      </Link>
+    </li>
+</ul>
 
                 </div>
                 {/* <!-- /.navbar-collapse --> */}

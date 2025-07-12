@@ -1,17 +1,16 @@
 
-/*font Variables*/
-/*Color Variables*/
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i,900|Montserrat:200,300,400,400i,500,500i,600,700,800,900|Open+Sans:300,400,400i,600,600i,700,800|PT+Sans:400,400i,700,700i|Poppins:300,400,500,600,700");
-@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i,900|Montserrat:200,300,400,400i,500,500i,600,700,800,900|Open+Sans:300,400,400i,600,600i,700,800|PT+Sans:400,400i,700,700i|Poppins:300,400,500,600,700"); */
+/* @import '@fortawesome/fontawesome-free/css/all.min.css'; */
 
 .col-md-offset-right-1, .col-lg-offset-right-1 {
   margin-right: 8.33333333%;
 }
 
-/* @font-face {
-  font-family: "ralH";
-  src: url(../fonts/theme-font/Arial.ttf.html);
-} */
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -1713,7 +1712,7 @@ i:before {
   position: relative;
 }
 
-.get_contact_inner .contact_us_form:before {
+/* .get_contact_inner .contact_us_form:before {
   content: "";
   height: 420px;
   width: 1px;
@@ -1721,9 +1720,9 @@ i:before {
   position: absolute;
   right: -80px;
   top: 0px;
-}
+} */
 
-.get_contact_inner .contact_us_form:after {
+/* .get_contact_inner .contact_us_form:after {
   content: "";
   height: 192px;
   width: 3px;
@@ -1731,7 +1730,7 @@ i:before {
   position: absolute;
   right: -82px;
   top: 115px;
-}
+} */
 
 .contact_us_form .form-group {
   margin-bottom: 20px;
@@ -2354,7 +2353,7 @@ i:before {
   font-size: 15px;
   line-height: 26px;
   font-family: "Open Sans", sans-serif;
-  color: #898989;
+  color: #333;
   letter-spacing: .225px;
   padding-bottom: 10px;
 }

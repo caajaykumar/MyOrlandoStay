@@ -26,7 +26,7 @@ const properties = [
     unitLink: '/Units/UnitFive',
     bookLink: 'https://www.lodgix.com/25634/',
     alt: 'Unit 5, 3 Bedroom Home',
-    active: true, // This property will not show
+    active: false, // This property will not show
   },
   // Add more units...
 ];

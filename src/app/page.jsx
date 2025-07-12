@@ -1,8 +1,9 @@
 // import Image from "next/image";
 
-import Header from "./components/Header/Header";
-import Footer from "./Footer/Footer";
-import About from "./components/About/About";
+// import Header from "./components/Header/Header";
+// import Footer from "./Footer/Footer";
+// import About from "./components/About/About";
+import AboutUs from './components/About/AboutUs'
 import WhychooseUs from './components/Whychoose/Whychoose'
 import Properties from "./components/Proparties/Properties";
 
@@ -23,20 +24,24 @@ export default function Home() {
   return (
     <>
      
-        <Header/>
+        {/* <Header/> */}
         <MainSlider/>
+        <AboutUs/>
   
-       <About/>
+       {/* <About/> */}
+
+       
        <HolidayBanner/>
 
-       <WhychooseUs/>
-
+      
       <Properties/> 
+       <WhychooseUs/>
+ <br/>
 
        <DiscountSection/>
        <Reservations/>
-       
-   <Footer/>
+{/*        
+   <Footer/> */}
     </>
   );
 }
