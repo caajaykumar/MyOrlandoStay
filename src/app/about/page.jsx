@@ -6,13 +6,6 @@ import Breadcrumb from '../components/Breadcrumb/Breadcrumb';
 import Activities from './Activities';
 import Team from './Team';
 
-
-export const metadata = {
-  title: 'About Us| Luxury but affordable Disney Area Vacation Rental by MyOrlandoStay | MyOrlandoy Stay',
-  description: 'Find affordable luxury rooms for your Disney vacation at MyOrlando Stay. Book now for comfort, convenience, pet-friendly and budget-friendly rates!',
-  keywords: ['Orlando vacation rental florida', 'Orlando properties in florida', '3 bed Vacation home for rent in orlando', 'orlando 3 bed home in florida', 'budget friendly home in orlando florida', 'cheappest vacation home in orlando florida', 'vacaion townhome for rent in orlndo fl', 'florida budget friendly homes', 'orlando vacation homes', 'vacation homes in Orlando fl', 'Disney vacation rental home in Florida', '3 bed room Disney home, vacation home in Disney Orlando'],
-};
-
 export default function AboutPage() {
   return (
     <>
@@ -34,7 +27,7 @@ export default function AboutPage() {
                 </div>
 
 
-                <h4><span class="goal_heading"> <u> Who We Are</u></span> </h4>
+                <h4><span className="goal_heading"> <u> Who We Are</u></span> </h4>
 
                 <p>
 

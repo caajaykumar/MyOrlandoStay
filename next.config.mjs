@@ -2,7 +2,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['stssevastorage.blob.core.windows.net'],
+    domains: [
+      'stssevastorage.blob.core.windows.net',
+      
+    ],
   },
 };
 

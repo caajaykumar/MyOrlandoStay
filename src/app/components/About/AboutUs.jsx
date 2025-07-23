@@ -1,5 +1,6 @@
+'use client';
 
-import React from 'react';
+import Image from 'next/image';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './aboutus.css'; 
 
@@ -7,10 +8,14 @@ export default function AboutUs() {
   return (
     <section className="about-section">
       <div className="about-images">
-        <img
-          src="https://myorlandostay.com/img/About-img.jpg"
+        <Image
+          src="https://stssevastorage.blob.core.windows.net/myorlandostay/About-img.jpg"
           alt="Main"
           className="img-main"
+          width={500}
+          height={500}
+          
+          
         />
        
       </div>

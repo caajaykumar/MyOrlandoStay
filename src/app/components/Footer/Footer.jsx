@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import styles from './footer.module.css';
 
 export default function Footer() {
@@ -22,8 +23,8 @@ export default function Footer() {
                 
                 <h3 className={styles.f_title}>Social Links</h3>
                 <ul className={styles.social_link}>
-                  <li><a href="https://www.facebook.com/MyOrlandoStay" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a></li>
-                  <li><a href="https://twitter.com/MyOrlandoStay" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
+                  <li><Link href="https://www.facebook.com/MyOrlandoStay" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></Link></li>
+                  <li><Link href="https://twitter.com/MyOrlandoStay" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></Link></li>
                 </ul>
               </aside>
             </div>
@@ -33,11 +34,11 @@ export default function Footer() {
               <aside className={styles.link_widget}>
                 <h3 className={styles.f_title}>Quick Links</h3>
                 <ul>
-                  <li><a href="/">Home</a></li>
-                  <li><a href="">About Us</a></li>
-                  <li><a href="/">Properties</a></li>
-                  <li><a href="/">Contact</a></li>
-                  <li><a href="/">Area Attractions</a></li>
+                  <li><Link href="/">Home</Link></li>
+                  <li><Link href="/baout">About Us</Link></li>
+                  <li><Link href="/proparties">Properties</Link></li>
+                  <li><Link href="/contact">Contact</Link></li>
+                  <li><Link href="/areaattraction">Area Attractions</Link></li>
                 </ul>
               </aside>
             </div>
@@ -47,11 +48,11 @@ export default function Footer() {
               <aside className={styles.link_widget}>
                 <h3 className={styles.f_title}>Important Links</h3>
                 <ul>
-                  <li><a href="/Privacy">Privacy Policy</a></li>
-                  <li><a href="/Policies">Policies & Terms</a></li>
-                  <li><a href="/Cookies">Cookie Notice</a></li>
-                  <li><a href="/Review">Reviews & Testimonials</a></li>
-                  <li><a href="/MapDirections">Map & Directions</a></li>
+                  <li><Link href="/privacy">Privacy Policy</Link></li>
+                  <li><Link href="/Policies">Policies & Terms</Link></li>
+                  <li><Link href="/Cookies">Cookie Notice</Link></li>
+                  <li><Link href="/Review">Reviews & Testimonials</Link></li>
+                  <li><Link href="/MapDirections">Map & Directions</Link></li>
                 </ul>
               </aside>
             </div>
@@ -75,14 +76,14 @@ export default function Footer() {
 
                   <div className={styles.media}>
                     <i className="fab fa-whatsapp"></i>
-                    <a href="tel:+1(407) 557-8999" >+1(407) 557-8999</a>
+                    <Link href="tel:+1(407) 557-8999" >+1(407) 557-8999</Link>
                   </div>
 
 
                   
                   <div className={styles.media}>
                     <i className="fab fa-whatsapp"></i>
-                    <a href="tel:+919839048100">+91-9839048100</a>
+                    <Link href="tel:+919839048100">+91-9839048100</Link>
                   </div>   
 
 
@@ -99,7 +100,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.footer_copyright}>
-        <p>Copyright © Disney Area Vacation Rental by <a href="#" className={styles.footer_link}>My Orlando Stay</a>, LLC. All rights reserved.</p>
+        <p>Copyright © Disney Area Vacation Rental by <Link href="#" className={styles.footer_link}>My Orlando Stay</Link>, LLC. All rights reserved.</p>
       </div>
     </footer>
   );

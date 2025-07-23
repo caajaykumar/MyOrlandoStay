@@ -224,12 +224,6 @@ const properties = [
     active: true, 
   },
   
-  
-
-  
-  
-
-
 ];
 
 export default properties;

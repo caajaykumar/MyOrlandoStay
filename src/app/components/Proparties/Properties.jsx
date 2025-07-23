@@ -1,6 +1,17 @@
+'use client'
+
+import Link from 'next/link';
+import Image from 'next/image';
 import properties from '../Proparties/propertiesData';
+
 export default function Properties() {
   return (
+
+
+
+    <>
+    
+  
     <section className="explor_room_area explore_room_list">
       <div className="container">
         <div className="explor_title row m0">
@@ -17,16 +28,16 @@ export default function Properties() {
             .map(property => (
               <div className="col-md-4 col-sm-6" key={property.id}>
                 <div className="explor_item">
-                  <a href={property.unitLink} className="room_image">
-                    <img src={property.imageUrl} alt={property.alt} />
-                  </a>
+                  <Link href={property.unitLink} className="room_image">
+                    <Image src={property.imageUrl} alt={property.alt} width={360} height={350}/>
+                  </Link>
                   <div className="explor_text">
-                    <a href={property.unitLink} className="text-center">
+                    <Link href={property.unitLink} className="text-center">
                       <h4>{property.title}</h4>
-                    </a>
+                    </Link>
                     <div className="explor_footer">
                       <div className="pull-left">
-                        <a className="book_now_btn text-center" href={property.bookLink}>Book Now</a>
+                        <Link className="book_now_btn text-center" href={property.bookLink}>Book Now</Link>
                       </div>
                     </div>
                   </div>
@@ -36,6 +47,7 @@ export default function Properties() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

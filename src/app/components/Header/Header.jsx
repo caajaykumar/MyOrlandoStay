@@ -10,15 +10,15 @@ const Header = () => {
         <div className="container">
             <div className="header_top_inner">
                 <div className="pull-left">
-                    <a href="#"><i className="fa fa-phone"></i>+1(407) 557-8999</a>
-                    <a href="#"><i className="fa fa-envelope-o"></i>crestwynd@earthlink.net </a>
+                    <Link href="#"><i className="fa fa-phone"></i>+1(407) 557-8999</Link>
+                    <Link href="#"><i className="fa fa-envelope-o"></i>crestwynd@earthlink.net </Link>
                 </div>
                 <div className="pull-right">
                     <ul className="header_social">
-                        <li><a href="#" id="google_translate_element"></a></li>
-                        <li><a href="https://www.lodgix.com/25634/" className="book_now_btn"> <i className="fa fa-calendar"></i> availability</a></li>
+                        <li><Link href="#" id="google_translate_element"></Link></li>
+                        <li><Link href="https://www.lodgix.com/25634/" className="book_now_btn"> <i className="fa fa-calendar"></i> availability</Link></li>
 
-                        <li><a href="https://www.lodgix.com/25634/" className="book_now_btn"> <i className="fa fa-calendar"></i> Book Now</a></li>
+                        <li><Link href="https://www.lodgix.com/25634/" className="book_now_btn"> <i className="fa fa-calendar"></i> Book Now</Link></li>
 
 
                     </ul>
@@ -37,11 +37,11 @@ const Header = () => {
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                     </button>
-                    <a className="navbar-brand" href="">
+                    <Link className="navbar-brand" href="/">
                         <img src="https://stssevastorage.blob.core.windows.net/myorlandostay/mylogo.png" alt="MyOrlandoStay Logo " className="logo_img"/>
                         {/* <img src="https://stssevastorage.blob.core.windows.net/myorlandostay/mylogo.png" alt="MyOrlandoStay Logo " className="logo_img"/> */}
                         <img src="https://stssevastorage.blob.core.windows.net/myorlandostay/mylogo.png" alt="MyOrlando Stay Logo" className="logo_img1"/>
-                    </a>
+                    </Link>
                 </div>
                 {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
                 <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

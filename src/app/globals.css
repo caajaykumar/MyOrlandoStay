@@ -7737,4 +7737,72 @@ Animation duration (2000 ms)*/
     }
 }
 
+
+
+.swiper-button-next {
+    height: 65px !important;
+    width: 65px !important;
+    background: #fff;
+    text-align: center;
+    line-height: 62px;
+    font-size: 20px !important;
+    color: #7e7e7e;
+    position: absolute !important;
+    top: 50% !important;
+    right:0px !important;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 3;
+    cursor: pointer;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+}
+
+
+.swiper-button-prev{
+
+  height: 65px !important;
+    width: 65px !important;
+    background: #fff;
+    text-align: center;
+    line-height: 62px;
+    font-size: 20px !important;
+    color: #7e7e7e;
+    position: absolute !important;
+    top: 50% !important;
+    left:0px !important;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 3;
+    cursor: pointer;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #f0f0f0;
+}
+
+/* Remove default Swiper icons */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 24px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Optional: better arrow spacing from the edges */
+.swiper-button-prev {
+  left: 0px;
+}
+
+.swiper-button-next {
+  right: 0px;
+}
     
