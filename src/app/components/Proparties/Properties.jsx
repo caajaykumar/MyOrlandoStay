@@ -16,7 +16,7 @@ export default function Properties() {
       <div className="container">
         <div className="explor_title row m0">
           <div className="left_ex_title">
-            <h2>Properties <span></span></h2>
+            <h2>Properties  <span></span></h2>
             <p>
               These homes are 3 bedrooms, 3 bath townhomes just 1 mile from the Disney parks. The homes are in a gated community with a semi-large swimming pool which is heated in the winters. The pool is open for our guests without a charge.
             </p>
